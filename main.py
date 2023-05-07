@@ -68,12 +68,12 @@ def plot_count_mobs_per_weaknesses_combination(mobs, mob_type, planet, min_weakn
             for mob_weaknesses in mobs.values():
                 if exclusive:
                     fig_path = f"charts/mobs_per_exclusive_weakness_{max_weaknesses}-{mob_type}_from_{planet}.png"
-                    title = f'How many ({mob_type}) mobs from {planet} have at least one weakness from this weaknesses combination?'
+                    title = f'How many ({mob_type}) mobs from {planet} have only one weakness from this weaknesses combination?'
                     if sum(weakness in mob_weaknesses for weakness in weakness_combination) == 1:
                         count += 1
                 else:
                     fig_path = f"charts/mobs_per_weakness_{max_weaknesses}-{mob_type}_from_{planet}.png"
-                    title = f'How many ({mob_type}) mobs from {planet} have only one weakness from this weaknesses combination?'
+                    title = f'How many ({mob_type}) mobs from {planet} have at least one weakness from this weaknesses combination?'
                     if any(weakness in mob_weaknesses for weakness in weakness_combination):
                         count += 1
             results.append((weakness_combination, count))
