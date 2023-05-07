@@ -1,0 +1,33 @@
+{
+    "Herta Space Station": [
+        "Herta Space Station",
+        "Master Control Zone",
+        "Base Zone",
+        "Storage Zone",
+        "Supply Zone"
+    ],
+    "Jarilo-VI": [
+        "Jarilo-VI",
+        "Administrative District",
+        "Outlying Snow Plains",
+        "Backwater Pass",
+        "Silvermane Guard Restricted Zone",
+        "Corridor of Fading Echoes",
+        "Everwinter Hill",
+        "Boulder Town",
+        "Great Mine",
+        "Rivet Town",
+        "Robot Settlement"
+    ],
+    "The Xianzhou Luofu": [
+        "The Xianzhou Luofu",
+        "Cloudford",
+        "Stargazer Navalia",
+        "Exalting Sanctum",
+        "Divination Commission",
+        ""
+    ],
+    "Simulated Universe": [
+        "Simulated Universe"
+    ]
+}

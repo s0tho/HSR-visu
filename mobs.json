@@ -1,0 +1,501 @@
+{
+    "Disciples of Sanctus Medicus - Internal Alchemist": {
+        "Weaknesses": [
+            "Physical",
+            "Imaginary"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Normal"
+    },
+    "Cloud Knights Patroller": {
+        "Weaknesses": [
+            "Fire",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Normal"
+    },
+    "Flamespawn": {
+        "Weaknesses": [
+            "Physical",
+            "Ice"
+        ],
+        "Zones": ["Backwater Pass"],
+        "Type": "Normal"
+    },
+    "Frostspawn": {
+        "Weaknesses": [
+            "Fire",
+            "Wind"
+        ],
+        "Zones": ["Outlying Snow Plains", "Backwater Pass", "Everwinter Hill", "Rivet Town"],
+        "Type": "Normal"
+    },
+    "Thunderspawn": {
+        "Weaknesses": [
+            "Physical",
+            "Wind"
+        ],
+        "Zones": ["Cloudford", "Stargazer Navalia"],
+        "Type": "Normal"
+    },
+    "Windspawn": {
+        "Weaknesses": [
+            "Fire",
+            "Lightning"
+        ],
+        "Zones": ["Divination Commission", "Divination Commission"],
+        "Type": "Normal"
+    },
+    "Incineration Shadewalker": {
+        "Weaknesses": [
+            "Ice",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Backwater Pass", "Corridor of Fading Echoes", "Rivet Town"],
+        "Type": "Normal"
+    },
+    "Everwinter Shadewalker": {
+        "Weaknesses": [
+            "Physical",
+            "Fire",
+            "Quantum"
+        ],
+        "Zones": ["Outlying Snow Plains", "Corridor of Fading Echoes", "Everwinter Hill", "Rivet Town"],
+        "Type": "Normal"
+    },
+    "Automaton Beetle": {
+        "Weaknesses": [
+            "Lightning",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Great Mine", "Robot Settlement"],
+        "Type": "Normal"
+    },
+    "Automaton Hound": {
+        "Weaknesses": [
+            "Physical",
+            "Lightning"
+        ],
+        "Zones": ["Robot Settlement"],
+        "Type": "Normal"
+    },
+    "Automaton Spider": {
+        "Weaknesses": [
+            "Lightning",
+            "Wind"
+        ],
+        "Zones": ["Robot Settlement"],
+        "Type": "Normal"
+    },
+    "Antibaryon": {
+        "Weaknesses": [
+            "Physical",
+            "Quantum"
+        ],
+        "Zones": ["Storage Zone"],
+        "Type": "Normal"
+    },
+    "Baryon": {
+        "Weaknesses": [
+            "Ice",
+            "Wind"
+        ],
+        "Zones": ["Storage Zone", "Supply Zone"],
+        "Type": "Normal"
+    },
+    "Vagrant": {
+        "Weaknesses": [
+            "Fire",
+            "Imaginary"
+        ],
+        "Zones": ["Great Mine"],
+        "Type": "Normal"
+    },
+    "Silvermane Gunner": {
+        "Weaknesses": [
+            "Physical",
+            "Ice"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Normal"
+    },
+    "Silvermane Soldier": {
+        "Weaknesses": [
+            "Wind",
+            "Quantum"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Normal"
+    },
+    "Silvermane Cannoneer": {
+        "Weaknesses": [
+            "Physical",
+            "Ice",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Normal"
+    },
+    "Voidranger - Distorter": {
+        "Weaknesses": [
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Storage Zone"],
+        "Type": "Normal"
+    },
+    "Voidranger - Reaver": {
+        "Weaknesses": [
+            "Physical",
+            "Lightning"
+        ],
+        "Zones": ["Base Zone", "Storage Zone", "Supply Zone"],
+        "Type": "Normal"
+    },
+    "Voidranger - Eliminator": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Quantum"
+        ],
+        "Zones": ["Supply Zone"],
+        "Type": "Normal"
+    },
+    "Mask of No Thought": {
+        "Weaknesses": [
+            "Fire",
+            "Quantum"
+        ],
+        "Zones": ["Everwinter Hill", "Cloudford"],
+        "Type": "Normal"
+    },
+    "Imaginary Weaver": {
+        "Weaknesses": [
+            "Physical",
+            "Lightning",
+            "Quantum"
+        ],
+        "Zones": ["Corridor of Fading Echoes", "Rivet Town", "Cloudford", "Stargazer Navalia"],
+        "Type": "Normal"
+    },
+    "Entranced Ingenuity - Obedient Dracolion": {
+        "Weaknesses": [
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Cloudford", "Stargazer Navalia"],
+        "Type": "Normal"
+    },
+    "Entranced Ingenuity - Golden Cloud Toad": {
+        "Weaknesses": [
+            "Lightning",
+            "Quantum"
+        ],
+        "Zones": ["Cloudford", "Stargazer Navalia"],
+        "Type": "Normal"
+    },
+    "Entranced Ingenuity - Illumination Dragonfish": {
+        "Weaknesses": [
+            "Lightning",
+            "Imaginary"
+        ],
+        "Zones": ["Cloudford", "Stargazer Navalia"],
+        "Type": "Normal"
+    },
+    "Mara-Struck Soldier": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Quantum"
+        ],
+        "Zones": ["Cloudford", "Stargazer Navalia", "Divination Commission", "Divination Commission"],
+        "Type": "Normal"
+    },
+    "Warp Trotter": {
+        "Weaknesses": [
+            "Physical",
+            "Quantum",
+            "Imaginary"
+        ],
+        "Zones": [
+            "Base Zone", 
+            "Storage Zone", 
+            "Supply Zone", 
+            "Outlying Snow Plains", 
+            "Backwater Pass", 
+            "Silvermane Guard Restricted Zone", 
+            "Corridor of Fading Echoes", 
+            "Everwinter Hill",
+            "Great Mine",
+            "Rivet Town",
+            "Robot Settlement",
+            "Cloudford",
+            "Stargazer Navalia",
+            "Divination Commission"
+        ],
+        "Type": "Elite"
+    },
+    "Abundant Ebon Deer": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Quantum"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Boss"
+    },
+    "Trotter of Abundance": {
+        "Weaknesses": [
+            "Physical",
+            "Lightning",
+            "Quantum"
+        ],
+        "Zones": ["Simulated Universe"],
+        "Type": "Elite"
+    },
+    "Trotter of Destruction": {
+        "Weaknesses": [
+            "Ice",
+            "Wind",
+            "Quantum"
+        ],
+        "Zones": ["Simulated Universe"],
+        "Type": "Elite"
+    },
+    "Trotter of Preservation": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Imaginary"
+        ],
+        "Zones": ["Simulated Universe"],
+        "Type": "Elite"
+    },
+    "Stellaron Hunter: Kafka": {
+        "Weaknesses": [
+            "Physical",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Boss"
+    },
+    "Automaton Direwolf": {
+        "Weaknesses": [
+            "Ice",
+            "Lightning",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Automaton Grizzly": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Lightning"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Blaze Out of Space": {
+        "Weaknesses": [
+            "Physical",
+            "Ice",
+            "Quantum"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Ice Out of Space": {
+        "Weaknesses": [
+            "Fire",
+            "Wind",
+            "Quantum"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Elite"
+    },
+    "Cocolia": {
+        "Weaknesses": [
+            "Fire",
+            "Lightning",
+            "Quantum"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Boss"
+    },
+    "Bronya": {
+        "Weaknesses": [
+            "Physical",
+            "Fire",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Boss"
+    },
+    "Gepard": {
+        "Weaknesses": [
+            "Physical",
+            "Lightning",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Boss"
+    },
+    "Guardian Shadow": {
+        "Weaknesses": [
+            "Physical",
+            "Wind",
+            "Quantum"
+        ],
+        "Zones": ["Everwinter Hill"],
+        "Type": "Elite"
+    },
+    "Decaying Shadow": {
+        "Weaknesses": [
+            "Fire",
+            "Lightning",
+            "Wind"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Searing Prowler": {
+        "Weaknesses": [
+            "Ice",
+            "Lightning",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Frigid Prowler": {
+        "Weaknesses": [
+            "Fire",
+            "Lightning",
+            "Quantum"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Svarog": {
+        "Weaknesses": [
+            "Fire",
+            "Lightning",
+            "Wind"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Boss"
+    },
+    "Silvermane Lieutenant": {
+        "Weaknesses": [
+            "Physical",
+            "Ice",
+            "Quantum"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Voidranger - Trampler": {
+        "Weaknesses": [
+            "Physical",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Herta Space Station"],
+        "Type": "Elite"
+    },
+    "Stormbringer": {
+        "Weaknesses": [
+            "Fire",
+            "Ice",
+            "Imaginary"
+        ],
+        "Zones": ["Jarilo-VI"],
+        "Type": "Elite"
+    },
+    "Disciples of Sanctus Medicus - Shape Shifter": {
+        "Weaknesses": [
+            "Ice",
+            "Wind",
+            "Imaginary"
+        ],
+        "Zones": ["Cloudford", "Divination Commission"],
+        "Type": "Elite"
+    },
+    "Aurumaton Gatekeeper": {
+        "Weaknesses": [
+            "Lightning",
+            "Wind",
+            "Quantum"
+        ],
+        "Zones": ["The Xianzhou Luofu"],
+        "Type": "Elite"
+    },
+    "Auxiliary Robot Arm Unit": {
+        "Weaknesses" : [
+            "Lightning",
+            "Wind",
+            "Quantum"
+        ],
+        "Zones":["Jarilo-VI"],
+        "Type": "Boss' Invocation"
+    },
+    "Twig of Marple Leaf": {
+        "Weaknesses" : [
+            "Fire",
+            "Quantum"
+        ],
+        "Zones":"The Xianzhou Luofu",
+        "Type": "Boss' Invocation"
+    },
+    "Twig of Wintry Wind": {
+        "Weaknesses" : [
+            "Ice",
+            "Quantum",
+            "Imaginary"
+        ],
+        "Zones":["The Xianzhou Luofu"],
+        "Type": "Boss' Invocation"
+    },
+    "Twig of Lavish Fruits": {
+        "Weaknesses" : [
+            "Fire",
+            "Quantum",
+            "Imaginary"
+        ],
+        "Zones":["The Xianzhou Luofu"],
+        "Type": "Boss' Invocation"
+    },
+    "Doomsday Beast": {
+        "Weaknesses" : [
+            "Physical",
+            "Fire",
+            "Ice",
+            "Wind"
+        ],
+        "Zones":["Herta Space Station"],
+        "Type": "Boss"
+    },
+    "Lance of Eternal Freeze - Right": {
+        "Weaknesses" : [
+            "Fire",
+            "Lightning"
+        ],
+        "Zones":["Jarilo-VI"],
+        "Type": "Boss' Invocation"
+    },
+    "Lance of Eternal Freeze - Left": {
+        "Weaknesses" : [
+            "Fire",
+            "Quantum"
+        ],
+        "Zones":["Jarilo-VI"],
+        "Type": "Boss' Invocation"
+    }
+}

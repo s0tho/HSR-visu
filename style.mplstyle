@@ -1,0 +1,10 @@
+figure.facecolor: 1a1a1b
+axes.facecolor: 1a1a1a
+xtick.color: white
+ytick.color: white
+axes.titlecolor: white
+axes.labelcolor: white
+axes.grid.axis: x
+axes.grid: True
+grid.color: white
+grid.linestyle: (0, (1, 10))
