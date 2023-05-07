@@ -58,7 +58,7 @@ def overlap_images(img1_path, img2_path, offset=(50, 150), new_width=600):
     new_img.save(img1_path)
 
 
-def plot_count_mobs_per_weaknesses_combination(mobs, mob_type, planet, min_weaknesses, max_weaknesses):
+def plot_count_mobs_per_weaknesses_combination(mobs, mob_type, planet, min_weaknesses, max_weaknesses, exclusive=True):
     weaknesses = ELEMENTS
     results = []
 
@@ -66,8 +66,16 @@ def plot_count_mobs_per_weaknesses_combination(mobs, mob_type, planet, min_weakn
         for weakness_combination in combinations(weaknesses, i):
             count = 0
             for mob_weaknesses in mobs.values():
-                if any(weakness in mob_weaknesses for weakness in weakness_combination):
-                    count += 1
+                if exclusive:
+                    fig_path = f"charts/mobs_per_exclusive_weakness_{max_weaknesses}-{mob_type}_from_{planet}.png"
+                    title = f'How many ({mob_type}) mobs from {planet} have at least one weakness from this weaknesses combination?'
+                    if sum(weakness in mob_weaknesses for weakness in weakness_combination) == 1:
+                        count += 1
+                else:
+                    fig_path = f"charts/mobs_per_weakness_{max_weaknesses}-{mob_type}_from_{planet}.png"
+                    title = f'How many ({mob_type}) mobs from {planet} have only one weakness from this weaknesses combination?'
+                    if any(weakness in mob_weaknesses for weakness in weakness_combination):
+                        count += 1
             results.append((weakness_combination, count))
 
     results.sort(key=lambda x: x[1])
@@ -99,11 +107,11 @@ def plot_count_mobs_per_weaknesses_combination(mobs, mob_type, planet, min_weakn
     plt.yticks(range(len(weaknesses)), ['' for weakness in weaknesses])
     plt.xlabel('Number of mobs')
     plt.ylabel('Weakness')
-    plt.xlim(-4, 60)
+    plt.xlim(-5, 60)
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.xticks(np.arange(0, max(counts)+2, 2))
-    plt.title(f'How many ({mob_type}) mobs from {planet} have at least one weakness from this weaknesses combination?')
-    fig_path = f"charts/mobs_per_weakness_{max_weaknesses}-{mob_type}_from_{planet}.png"
+    plt.title(title)
+    
     plt.savefig(fig_path, dpi=200)
     plt.close()
     
@@ -170,7 +178,7 @@ if __name__ == "__main__":
     for mob_type_mode in mob_type_modes.keys():
         for planet_mode in planet_modes.keys():
             mobs = get_mobs("mobs.json", "zones.json", mob_type_modes[mob_type_mode], planet_modes[planet_mode])
-            for quantity in range(2,4):
+            for quantity in range(2,5):
                 weaknesses_quantity = quantity
                 plot_count_mobs_per_weaknesses_combination(mobs, mob_type_mode, planet_mode, weaknesses_quantity, weaknesses_quantity)
             plot_weaknesses_overlap(mobs, mob_type_mode, planet_mode)
